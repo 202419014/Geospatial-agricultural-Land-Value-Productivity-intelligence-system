@@ -1,5 +1,10 @@
 ## Project Title
 Geospatial Agricultural Land Value & Productivity Intelligence System
+## Team Members
+1. D. Sushma
+2. D. Sweta
+3. V. Jhaana Sreya
+4. B. Deepika
 ## Problem Statement
 Agricultural land value and productivity are influenced by several spatial factors such as soil fertility, irrigation availability, road accessibility, and proximity to agricultural markets. However, land evaluation is often based on fragmented information rather than systematic spatial analysis. There is a need for a data-driven system that integrates geospatial datasets and analytical techniques to estimate agricultural land potential and economic value.
 ## Proposed Solution
