@@ -1,6 +1,6 @@
 ## Project Proposal (PGP) 
-**Group Name** ***Agri Land Analytics*
-Members: ** D. Sushma, D. Sweta, V. Jhaana Sreya, B. Deepika
+**Group Name** ***Agri Land Analytics***
+- Members: ** D. Sushma, D. Sweta, V. Jhaana Sreya, B. Deepika
 ## Project Title
 **Geospatial Agricultural Land Value & Productivity Intelligence System**
 
