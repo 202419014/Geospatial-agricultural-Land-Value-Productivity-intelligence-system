@@ -67,15 +67,17 @@ https://github.com/202419014/Geospatial-agricultural-Land-Value-Productivity-int
 
 ## Initial Folder Structure
 
-  project-root/
-  ├── data/           # Sample GeoJSON and CSV for immediate testing
-  ├── docs/           # Proposal PDF and architecture diagram
-  ├── src/
-  │   ├── gui/        # Streamlit layout scripts
-  │   ├── logic/      # ML model training, prediction, geospatial processing
-  │   └── utils/      # Helper functions (data loading, feature extraction)
-  ├── main.py         # Entry point  →  streamlit run main.py
-  └── requirements.txt
+project-root/
+│
+├── data/ # Sample GeoJSON and CSV for testing
+├── docs/ # Proposal PDF and architecture diagram
+├── src/
+│ ├── gui/ # Streamlit layout scripts
+│ ├── logic/ # ML model training and geospatial processing
+│ └── utils/ # Helper functions (data loading, feature extraction)
+│
+├── main.py # Entry point → streamlit run main.py
+└── requirements.txt
 
 # 5. Preliminary Task Distribution
 
