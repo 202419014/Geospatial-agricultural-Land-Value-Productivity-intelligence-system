@@ -1,25 +1,25 @@
-# 🌾 AgriLand Value Intelligence System
+#  AgriLand Value Intelligence System
 ### Geospatial Agricultural Land Value & Productivity Intelligence — Ludhiana District, Punjab
 
 > AI-powered land valuation platform built with Streamlit, Random Forest ML, Folium maps, and real geospatial data from SoilGrids & APMC market datasets.
 
 ---
 
-## 📌 What This Tool Does
+##  What This Tool Does
 
 AgriLand Value Intelligence helps **farmers** and **land buyers** in Ludhiana District, Punjab assess and explore agricultural land prices using machine learning. Users log in via OTP, select their role (Farmer / Buyer), and access an interactive map of 36+ land parcels with ML-predicted valuations based on real soil and market data.
 
 **Key capabilities:**
-- 🗺️ Interactive Folium map — click any parcel to see price, soil quality, and market proximity
-- ✏️ Draw your own parcel boundary and get an instant ML price estimate
-- 🌱 Soil feature extraction (clay, sand, silt, pH, organic carbon, nitrogen) from raster data
-- 🏪 Market proximity scoring using APMC mandi locations
-- 🤖 Random Forest model with feature importance explanations
-- 📊 Filterable summary table of all land parcels
+-  Interactive Folium map — click any parcel to see price, soil quality, and market proximity
+-  Draw your own parcel boundary and get an instant ML price estimate
+-  Soil feature extraction (clay, sand, silt, pH, organic carbon, nitrogen) from raster data
+-  Market proximity scoring using APMC mandi locations
+-  Random Forest model with feature importance explanations
+-  Filterable summary table of all land parcels
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -32,7 +32,7 @@ cd YOUR_REPO_NAME
 pip install -r requirements.txt
 ```
 
-> ⚠️ Requires Python 3.9+. It is strongly recommended to use a virtual environment:
+>  Requires Python 3.9+. It is strongly recommended to use a virtual environment:
 > ```bash
 > python -m venv venv
 > source venv/bin/activate        # macOS/Linux
@@ -54,7 +54,7 @@ The app will open automatically at **http://localhost:8501**
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 project-root/
@@ -88,7 +88,7 @@ project-root/
 
 ---
 
-## 🧰 Tech Stack & Libraries
+##  Tech Stack & Libraries
 
 | Library | Purpose |
 |---|---|
@@ -103,7 +103,7 @@ project-root/
 
 ---
 
-## 🗃️ Sample Data
+##  Sample Data
 
 The `data/` folder contains a small ready-to-use dataset so instructors can run the tool immediately:
 
@@ -115,14 +115,14 @@ The Random Forest model (`rf_model.pkl`) is auto-generated on first run if not p
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | Role |
 |---|---|
-| Member 1 | [Module] |
-| Member 2 | [Module] |
-| Member 3 | [Module] |
-| Member 4 | [Module] |
+| V. Jhaana Sreya | [Module] |
+| D. Sushma | [Module] |
+| D. Sweta | [Module] |
+| B. Deepika | [Module] |
 
 > *(Update with actual names before submission)*
 
