@@ -112,6 +112,7 @@ The `data/` folder contains a small ready-to-use dataset so instructors can run 
 - **Soil rasters** for clay, sand, silt, pH, organic carbon, nitrogen extraction
 
 The Random Forest model (`rf_model.pkl`) is auto-generated on first run if not present.
+> Note: The dataset included is a small sample for demonstration purposes. The system is designed to work with larger, real-world datasets.
 
 ---
 
