@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "ludhiana_mandis",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Market": "Doraha APMC", "Latitude": 30.8039, "Longitude": 76.0334 }, "geometry": { "type": "Point", "coordinates": [ 76.0334, 30.8039 ] } },
+{ "type": "Feature", "properties": { "Market": "Hathur APMC", "Latitude": 30.6038, "Longitude": 75.4257 }, "geometry": { "type": "Point", "coordinates": [ 75.4257, 30.6038 ] } },
+{ "type": "Feature", "properties": { "Market": "Jagraon APMC", "Latitude": 30.7878, "Longitude": 75.4739 }, "geometry": { "type": "Point", "coordinates": [ 75.4739, 30.7878 ] } },
+{ "type": "Feature", "properties": { "Market": "Khanna APMC", "Latitude": 30.7055, "Longitude": 76.2219 }, "geometry": { "type": "Point", "coordinates": [ 76.2219, 30.7055 ] } },
+{ "type": "Feature", "properties": { "Market": "Kila Raipur APMC", "Latitude": 30.71, "Longitude": 75.83 }, "geometry": { "type": "Point", "coordinates": [ 75.83, 30.71 ] } },
+{ "type": "Feature", "properties": { "Market": "Kila Raipur (Jodhan) APMC", "Latitude": 30.7, "Longitude": 75.82 }, "geometry": { "type": "Point", "coordinates": [ 75.82, 30.7 ] } },
+{ "type": "Feature", "properties": { "Market": "Ludhiana APMC", "Latitude": 30.901, "Longitude": 75.8573 }, "geometry": { "type": "Point", "coordinates": [ 75.8573, 30.901 ] } },
+{ "type": "Feature", "properties": { "Market": "Ludhiana (Mandi Gill Road) APMC", "Latitude": 30.895, "Longitude": 75.86 }, "geometry": { "type": "Point", "coordinates": [ 75.86, 30.895 ] } },
+{ "type": "Feature", "properties": { "Market": "Ludhiana (Salem Tabri) APMC", "Latitude": 30.92, "Longitude": 75.85 }, "geometry": { "type": "Point", "coordinates": [ 75.85, 30.92 ] } },
+{ "type": "Feature", "properties": { "Market": "Machhiwara APMC", "Latitude": 30.9156, "Longitude": 76.2 }, "geometry": { "type": "Point", "coordinates": [ 76.2, 30.9156 ] } },
+{ "type": "Feature", "properties": { "Market": "Malaoud (Siar) APMC", "Latitude": 30.6, "Longitude": 75.9 }, "geometry": { "type": "Point", "coordinates": [ 75.9, 30.6 ] } },
+{ "type": "Feature", "properties": { "Market": "Maloud APMC", "Latitude": 30.597, "Longitude": 75.89 }, "geometry": { "type": "Point", "coordinates": [ 75.89, 30.597 ] } },
+{ "type": "Feature", "properties": { "Market": "Mansura APMC", "Latitude": 30.76, "Longitude": 75.5 }, "geometry": { "type": "Point", "coordinates": [ 75.5, 30.76 ] } },
+{ "type": "Feature", "properties": { "Market": "Mullanpur APMC", "Latitude": 30.816, "Longitude": 75.676 }, "geometry": { "type": "Point", "coordinates": [ 75.676, 30.816 ] } },
+{ "type": "Feature", "properties": { "Market": "Mullanpur Dakha (Sawadi) APMC", "Latitude": 30.8, "Longitude": 75.65 }, "geometry": { "type": "Point", "coordinates": [ 75.65, 30.8 ] } },
+{ "type": "Feature", "properties": { "Market": "Nurpurbet APMC", "Latitude": 31.05, "Longitude": 76.2 }, "geometry": { "type": "Point", "coordinates": [ 76.2, 31.05 ] } },
+{ "type": "Feature", "properties": { "Market": "Purain APMC", "Latitude": 30.88, "Longitude": 75.7 }, "geometry": { "type": "Point", "coordinates": [ 75.7, 30.88 ] } },
+{ "type": "Feature", "properties": { "Market": "Raikot (Nathowal) APMC", "Latitude": 30.66, "Longitude": 75.61 }, "geometry": { "type": "Point", "coordinates": [ 75.61, 30.66 ] } },
+{ "type": "Feature", "properties": { "Market": "Raikot (Talwandi Rai) APMC", "Latitude": 30.64, "Longitude": 75.59 }, "geometry": { "type": "Point", "coordinates": [ 75.59, 30.64 ] } },
+{ "type": "Feature", "properties": { "Market": "Raikot APMC", "Latitude": 30.65, "Longitude": 75.6 }, "geometry": { "type": "Point", "coordinates": [ 75.6, 30.65 ] } },
+{ "type": "Feature", "properties": { "Market": "Samrala APMC", "Latitude": 30.835, "Longitude": 76.19 }, "geometry": { "type": "Point", "coordinates": [ 76.19, 30.835 ] } },
+{ "type": "Feature", "properties": { "Market": "Sidhwan Bet (Lodhiwala) APMC", "Latitude": 30.72, "Longitude": 75.55 }, "geometry": { "type": "Point", "coordinates": [ 75.55, 30.72 ] } },
+{ "type": "Feature", "properties": { "Market": "Sidhwan Bet APMC", "Latitude": 30.72, "Longitude": 75.54 }, "geometry": { "type": "Point", "coordinates": [ 75.54, 30.72 ] } },
+{ "type": "Feature", "properties": { "Market": "Kum Kalan APMC", "Latitude": 30.98, "Longitude": 75.9 }, "geometry": { "type": "Point", "coordinates": [ 75.9, 30.98 ] } },
+{ "type": "Feature", "properties": { "Market": "Lakhowal APMC", "Latitude": 30.92, "Longitude": 75.78 }, "geometry": { "type": "Point", "coordinates": [ 75.78, 30.92 ] } }
+]
+}
