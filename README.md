@@ -23,8 +23,8 @@ AgriLand Value Intelligence helps **farmers** and **land buyers** in Ludhiana Di
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/202419014/Geospatial-agricultural-Land-Value-Productivity-intelligence-system.git
+cd Geospatial-agricultural-Land-Value-Productivity-intelligence-system
 ```
 
 ### 2. Install Dependencies
@@ -107,7 +107,7 @@ project-root/
 
 The `data/` folder contains a small ready-to-use dataset so instructors can run the tool immediately:
 
-- **36 land parcels** in Ludhiana District with price, soil type, irrigation status
+- **36 land regions** in Ludhiana District with price, soil type, irrigation status
 - **APMC market locations** (CSV + GeoJSON) for proximity computation
 - **Soil rasters** for clay, sand, silt, pH, organic carbon, nitrogen extraction
 
@@ -119,12 +119,11 @@ The Random Forest model (`rf_model.pkl`) is auto-generated on first run if not p
 
 | Name | Role |
 |---|---|
-| V. Jhaana Sreya | [Module] |
-| D. Sushma | [Module] |
-| D. Sweta | [Module] |
-| B. Deepika | [Module] |
+| D. Sushma | ML model development (Random Forest, feature engineering, tuning), Model evaluation and analysis |
+| V. Jhaana Sreya | Geospatial processing (GeoPandas, Shapely, Rasterio), Data cleaning and feature preparation  |
+| D. Sweta |Visualization integration and system integration, Documentation, README, presentation |
+| B. Deepika |Streamlit GUI design and interaction handling, UI testing and refinement |
 
-> *(Update with actual names before submission)*
 
 ---
 
