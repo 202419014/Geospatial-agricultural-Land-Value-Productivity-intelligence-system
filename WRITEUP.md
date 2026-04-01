@@ -1,9 +1,8 @@
 # AgriLand Value Intelligence System
 *Geospatial Agricultural Land Valuation — Ludhiana District, Punjab*
 
-**Project Writeup | Submitted: April 01, 2026**
 
-**Group Members:** [Member 1] | [Member 2] | [Member 3] | [Member 4]
+**Group Members:** D. Sushma | V. Jhaana Sreya | D. Sweta | B. Deepika
 
 ---
 
@@ -25,7 +24,7 @@ The application uses a simulated OTP-based login system. When a user enters thei
 
 On startup, the application loads three types of geospatial data through the `data_loader` module:
 
-- GeoJSON files for 36 land parcels and mandi locations (loaded via GeoPandas)
+- GeoJSON files for 36 land regions and mandi locations (loaded via GeoPandas)
 - CSV file of APMC market coordinates (loaded via Pandas, converted to GeoDataFrame)
 - Raster `.tif` files for soil properties — clay, sand, silt, pH, organic carbon, nitrogen (loaded via Rasterio)
 
@@ -39,7 +38,7 @@ For each land parcel, spatial features are computed by the `feature_extraction` 
 
 ### 2.4 Machine Learning Model
 
-A Random Forest Regressor (scikit-learn) is trained on the 36-parcel dataset using the extracted features. Key design decisions:
+A Random Forest Regressor (scikit-learn) is trained on the 36 dataset using the extracted features. Key design decisions:
 
 - **Feature set:** soil clay%, sand%, silt%, pH, organic carbon, nitrogen, market distance (km), irrigation binary, area (acres)
 - **Target variable:** land value in INR per acre
@@ -51,7 +50,7 @@ A Random Forest Regressor (scikit-learn) is trained on the 36-parcel dataset usi
 
 **Farmer view:** The user can draw a custom parcel boundary on the Folium map using Leaflet Draw controls. The drawn polygon's centroid is computed, soil features are sampled from that point, market distance is calculated, and the trained model returns a price estimate with a feature importance bar chart.
 
-**Buyer view:** The user sees all 36 parcels color-coded by value tier on the Folium map. Clicking a parcel opens a popup with full details. A filterable summary table below the map allows sorting and searching across all parcels.
+**Buyer view:** The user sees all 36 regions color-coded by value tier on the Folium map. Clicking a parcel opens a popup with full details. A filterable summary table below the map allows sorting and searching across all parcels.
 
 ---
 
@@ -88,24 +87,24 @@ The auth module (`src/utils/auth.py`) implements a stateful three-step login: ph
 
 ## 4. Contribution Table
 
-| **Module / File** | **Responsibility** | **Built By** |
+| **Module / File** | **Responsibility** |
 |---|---|---|
-| `main.py` | App entry point, session state, OTP auth UI, login flow | Member 1 |
-| `src/utils/auth.py` | OTP generation, user registration, verification logic | Member 1 |
-| `src/gui/map_builder.py` | Folium map, parcel polygons, popup HTML, Draw plugin | Member 2 |
-| `src/gui/farmer_page.py` | Farmer dashboard, draw-to-predict workflow, UI layout | Member 2 |
-| `src/gui/buyer_page.py` | Buyer dashboard, parcel explorer, filter table | Member 3 |
-| `src/logic/model.py` | Random Forest training, prediction, feature importance | Member 3 |
-| `src/utils/data_loader.py` | GeoJSON, CSV, raster data loading with GeoPandas/Rasterio | Member 4 |
-| `src/utils/feature_extraction.py` | Soil raster sampling, market distance computation | Member 4 |
-| `data/` (dataset curation) | GeoJSON parcels, APMC CSV, soil raster preparation | All Members |
-| `README.md` & Documentation | Installation guide, folder structure, usage docs | Member 1 |
+| `main.py` | App entry point, session state, OTP auth UI, login flow | 
+| `src/utils/auth.py` | OTP generation, user registration, verification logic |
+| `src/gui/map_builder.py` | Folium map, parcel polygons, popup HTML, Draw plugin | 
+| `src/gui/farmer_page.py` | Farmer dashboard, draw-to-predict workflow, UI layout | 
+| `src/gui/buyer_page.py` | Buyer dashboard, parcel explorer, filter table |
+| `src/logic/model.py` | Random Forest training, prediction, feature importance | 
+| `src/utils/data_loader.py` | GeoJSON, CSV, raster data loading with GeoPandas/Rasterio |
+| `src/utils/feature_extraction.py` | Soil raster sampling, market distance computation | 
+| `data/` (dataset curation) | GeoJSON parcels, APMC CSV, soil raster preparation | 
+| `README.md` & Documentation | Installation guide, folder structure, usage docs |
 
 > *Note: All team members contributed to testing, debugging, and the final presentation preparation. The contribution table reflects primary module ownership.*
 
 ---
 
-## 5. Library Choice Justification
+## 5. Libraries used
 
 | **Library** | **Why We Chose It** |
 |---|---|
@@ -118,5 +117,3 @@ The auth module (`src/utils/auth.py`) implements a stateful three-step login: ph
 | Shapely | Geometry operations (centroid, distance, polygon containment) required for spatial feature computation. |
 
 ---
-
-*AgriLand Value Intelligence | Group Project Writeup | April 2026*
